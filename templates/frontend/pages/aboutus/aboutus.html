@@ -1,0 +1,58 @@
+{% extends 'frontend/master/master.html'  %}
+
+{% block content %}
+{% load static %}
+
+<!--for team-->
+<div class="container-fluid section">
+    <div class="row">
+        <div class="col-md-12 py-1">
+            <h2 class="our-team">Our Team</h2>
+        </div>
+        <div class="col-md-3">
+            <div class="info-box">
+                <img src="{% static 'assets/css/image/1.jpg' %}" class="logo" alt="">
+                <!--                <i class="fa fa-user" aria-hidden="true"></i>-->
+                <h3>David Chand</h3>
+                <p> Web Developer</p>
+                <p class="param">A web developer is a programmer who specializes in, or is specifically engaged in, the
+                    development of World Wide Web applications using a client–server model. </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="info-box">
+                <img src="{% static 'assets/css/image/suyog.jpg' %}" class="logo" alt="">
+                <!--                <i class="fa fa-user" aria-hidden="true"></i>-->
+                <h3>Suyog Guragain</h3>
+                <p> Web Developer</p>
+                <p class="param">A web developer is a programmer who specializes in, or is specifically engaged in, the
+                    development of World Wide Web applications using a client–server model. </p>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="info-box">
+                <img src="{% static 'assets/css/image/biswash.jpg' %}" class="logo" alt="">
+                <!--                <i class="fa fa-user" aria-hidden="true"></i>-->
+                <h3>Biswash Giri</h3>
+                <p> Web Developer</p>
+                <p class="param">A web developer is a programmer who specializes in, or is specifically engaged in, the
+                    development of World Wide Web applications using a client–server model. </p>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="info-box">
+                <img src="{% static 'assets/css/image/bisesh.jpg' %}" class="logo" alt="">
+                <!--                <i class="fa fa-user" aria-hidden="true"></i>-->
+                <h3>Bisesh Timilsine</h3>
+                <p> Web Developer</p>
+                <p class="param">A web developer is a programmer who specializes in, or is specifically engaged in, the
+                    development of World Wide Web applications using a client–server model.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+{% endblock %}
